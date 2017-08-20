@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mainFragment"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000"
+        android:text="Main Fragment"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TableLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView android:text="find By Id person : "/>
+            <EditText android:inputType="number" android:id="@+id/findById" android:layout_width="200dp" android:background="@android:drawable/edit_text"/>
+        </TableRow>
+        <Button android:id="@+id/cariPerson" android:text="Cari Person"/>
+        <Button
+            android:id="@+id/cekListener"
+            android:text="RecView Listener"
+            />
+    </TableLayout>
+
+
+</LinearLayout>
